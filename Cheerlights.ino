@@ -21,7 +21,7 @@ String response;
 String lastCommand="";
 byte oldColors[] = {0,0,0};
 
-static void set_color(int r, int g, int b){
+static void set_color(byte r, byte g, byte b){
   for(int i = 0;i<255;i++){
     if(oldColors[0]>r){
       oldColors[0]--;
